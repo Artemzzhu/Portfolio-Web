@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Main page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="nav" id="nav">
+			<div class="list">
+				<input value="Home"  onclick="window.scrollTo(0,0)" type="button">
+	            <input value="About me" onclick="document.getElementById('about').scrollIntoView()" type="button">
+	            <input value="Skills" onclick="document.getElementById('skills').scrollIntoView()" type="button">
+	            <input value="Portfolio" onclick="document.getElementById('portfolio').scrollIntoView()" type="button">
+				<input value="Contacts" onclick="document.getElementById('contacts').scrollIntoView()" type="button">
+			</div>
+		</div>
+
+		<script>
+			let elem = document.getElementById("nav");
+			elem.style.position = "fixed";
+			elem.style.width = document.body.clientWidth + 'px';
+			elem.style.top = "0px";
+		</script>
+
+		<div class="header">
+			<p>
+				Denis <br>
+				Novik
+			</p>
+
+			<p>
+				UX | UI designer <br>
+				24 years old, Minsk
+			</p>
+
+			<p>
+				<span>RU</span> | ENG
+			</p>			
+		</div>
+
+		<div class="avatar">	</div>
+
+		<div class="about" id="about">
+			<h1>
+				About me <br> <br>
+			</h1>
+
+			<p>
+				Hi, I'm Denis – UX/UI designer from Minsk. <br>
+				I'm interested in design and everything connected with it. 
+				<br> <br> <br>
+				I'm studying at courses "Web and mobile design <br>
+				interfaces" in IT-Academy.
+				<br> <br> <br>
+				Ready to implement excellent projects <br>
+ 				with wonderful people.
+			</p>
+		</div>
+
+		<div class="skills" id="skills">
+			<h2>
+				Skills <br> <br> <br>
+			</h2>
+
+			<p>
+				I work in such programs as
+			</p>
+
+			<div class="programs">
+				<div>
+					Adobe <br>
+					Photoshop
+				</div>
+
+				<div>
+					Adobe <br>
+					Illustrator
+				</div>
+
+				<div>
+					Adobe <br>
+					After Effects
+				</div>
+					
+				<div>
+					Figma
+				</div>				
+			</div>			
+		</div>
+
+		<div class="portfolio" id="portfolio">
+			<h3>
+				Portfolio
+			</h3>
+
+			<div class="fashion">
+				
+			</div>
+
+			<p>
+				Online fashion store - Homepage
+			</p>
+
+			<div class="reebok">
+				
+			</div>
+
+			<p>
+				Reebok Store - Concept
+			</p>
+
+			<div class="braun">
+				
+			</div>
+
+			<p>
+				Braun Landing Page - Concept
+			</p>
+
+		</div>
+
+		<div class="contacts" id="contacts">
+			<h4>
+				Contacts
+			</h4>
+
+			<p>
+				Want to know more or just chat? <br>
+				You are welcome!
+			</p>
+
+			<button class="button">
+				Send message
+			</button>
+		</div>
+
+		<div class="footer">
+			<div class="in">
+				
+			</div>
+
+			<div class="ins">
+				
+			</div>
+
+			<div class="be">
+				
+			</div>
+
+			<div class="dri">
+				
+			</div>
+
+			<p>
+				Like me on <br>
+				LinkedIn, Instagram, Behance, Dribble
+			</p>
+				
+		</div>
+	</body>
+
+</html>

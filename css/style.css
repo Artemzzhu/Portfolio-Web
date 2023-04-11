@@ -1,0 +1,313 @@
+ *{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none}
+ul li{list-style: none}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400%;}
+
+body{
+	max-width: 940.6px;
+	margin: 0 auto;
+	font-family: Gilroy-Bold, sans-serif;
+}
+
+.nav{
+	background-color: white;
+	border-bottom: 1px solid #828282;
+	height: 87.94px;
+	z-index: 1;
+}
+
+.list{
+	max-width: inherit;
+	height: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-content: center;
+}
+
+.list input {
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #828282;
+	background-color: white;
+}
+
+.list input:first-child{
+	color: #000;
+}
+
+.header{
+	margin: 88px 0px 0px 0px;
+	max-width: inherit;
+	color: #070707;
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+
+.header p{
+}
+
+.header p:nth-child(1){
+	font-size: 47.3392px;
+	line-height: 59px;
+	font-weight: 600;
+}
+
+
+.header p:nth-child(2){
+	font-family: 'Gilroy-Medium';
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.header p:nth-child(3){
+	font-size: 16px;
+	line-height: 20px;
+	transform: rotate(270deg);
+	padding-top: 45px;	
+}
+
+.header span{
+	color: #828282;
+	z-index: 0;
+}
+
+.avatar{
+	margin: 50px 0px 0px 0px;	
+	height: 387px;
+	background-image: url('../img/avatar.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% 100%;
+}
+
+.about{
+	height: 400px;
+	padding: 120px 0px 0px 0px;
+	text-align: center;
+}
+
+h1,h2,h3,h4{
+	font-size: 34px;
+	line-height: 100%;
+}
+
+.about p{
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 100%;
+}
+
+.skills{
+	padding: 120px 0px 0px 0px;
+	text-align: center;
+}
+
+.skills p{
+	font-family: Gilroy-Medium;
+	Font-size: 18px;
+	line-height: 100%;
+}
+
+.programs{
+	margin: 83px 0px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+
+.programs div{
+	height: 206.29px;
+	width: 166.46px;
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+	color: #828282;
+	padding: 112.62px 0px 0px 0px;
+}
+
+.programs div:nth-child(1){
+	background-image: url('../img/photoshop.png'), 
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/white-star.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 50% 0, 0 100%, 25% 100%, 50% 100%, 75% 100%, 100% 100%;
+}
+
+.programs div:nth-child(2){
+	background-image: url('../img/illustrator.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/white-star.png'),
+					  url('../img/white-star.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 50% 0, 0 100%, 25% 100%, 50% 100%, 75% 100%, 100% 100%;
+}
+
+.programs div:nth-child(3){
+	background-image: url('../img/effects.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/white-star.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 50% 0, 0 100%, 25% 100%, 50% 100%, 75% 100%, 100% 100%;
+}
+
+.programs div:nth-child(4){
+	background-image: url('../img/figma.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/star.png'),
+					  url('../img/white-star.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 50% 0, 0 100%, 25% 100%, 50% 100%, 75% 100%, 100% 100%;
+}
+
+.portfolio{
+	text-align: center;
+	margin: 100px 0px 0px 0px;
+	padding: 120px 0px 0px 0px;
+}
+
+.portfolio p{
+	Font-family: Gilroy-Medium;
+	Font-size: 18px;
+	text-decoration: underline;
+	margin: 45px 0px 0px 0px;
+}
+
+.fashion, .reebok, .braun{
+	width: inherit;
+	height: 522px;
+	margin: 99px 0px 0px 0px;
+}
+
+.fashion{
+	margin: 47px 0px 0px 0px;
+	height: 510px;
+	background-image: url('../img/fashion.png');
+	background-repeat: no-repeat;
+}
+
+.reebok{
+	background-image: url('../img/reebok.png');
+	background-repeat: no-repeat;
+}
+
+.braun{
+	background-image: url('../img/braun.png');
+	background-repeat: no-repeat;
+}
+
+.contacts{
+	text-align: center;
+	margin: 210px 0px 0px 0px;
+}
+
+.contacts p{
+	margin: 20px 0px 0px 0px;
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+}
+
+.button{
+	margin: 42px 0px 82px 0px;
+	height: 42px;
+	width: 180px;
+	background-color: #070707;
+	color: #fff;
+	border-radius: 60px;
+	font-size: 18px; 
+	line-height: 22.28px;
+}
+
+.footer{
+	margin: 0 auto;
+	height: 41px;
+	width: 342px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	text-align: center;
+}
+
+.footer div{
+	height: 40px;
+	width: 40px;
+}
+
+.footer p{
+	margin: 45px 0px 0px 0px;
+	padding: 0px 0px 100px 0px;
+	width: 342px;
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	line-height: 16.98px;
+	color: #828282;
+}
+
+.in{
+	background-image: url('../img/in.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.ins{
+	background-image: url('../img/ins.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.be{
+	background-image: url('../img/be.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.dri{
+	background-image: url('../img/dri.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+}
